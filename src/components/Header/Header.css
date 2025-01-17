@@ -1,0 +1,11 @@
+nav a {
+    margin-right: 20px;
+}
+
+nav a.active {
+    color: white;
+    padding: 5px;
+    /* border: 1px solid skyblue; */
+    border-radius: 5px;
+    background-color: rgb(70, 70, 70);
+}
