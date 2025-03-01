@@ -6,6 +6,11 @@ import './Users.css'
 const Users = () => {
 
     const users = useLoaderData();
+// Key Points of using "loader" and "useLoaderData() instead of "useEffect()":
+// 1. Runs before rendering the component.
+// 2. Used in React Router routes.
+// 3. Data is fetched before component mounts.
+
     console.log(users);
     return (
         <div>
